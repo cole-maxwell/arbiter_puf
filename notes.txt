@@ -1,0 +1,12 @@
+take something we;ve seen in the course or in another lab, ask a question and answer it
+
+synthesis, explore synthesis under different contraints
+
+interested layouts, impact on performance? folded transitors
+
+routing in poly? how long does it have to be to be not worth it?
+
+fpga?
+- build a LUT
+- 
+
