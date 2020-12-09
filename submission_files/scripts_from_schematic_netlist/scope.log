@@ -1,0 +1,46 @@
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+8+923
+Mdi:ArrangeIcons
+wm geometry . 1536x812+0+923
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+ScopeSigMgr:loadpffile /home/ece658_2020/chmaxwell/lab5/part1/arbiter_puf.tr0 1 openonly
+# PF:1
+wm geometry .sigmgr._PF:1 343x319+1237+931
+wm geometry .sigmgr._PF:1 343x319+879+1098
+pf:read PF:1 v(sel7) v(sel6) v(sel5) v(sel4) v(sel3) v(sel2) v(sel1) v(sel0) v(s) v(r) v(q_not) v(q)
+# WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12
+Graph addsignal {WF:1:1 WF:1:2 WF:1:3 WF:1:4 WF:1:5 WF:1:6 WF:1:7 WF:1:8 WF:1:9 WF:1:10 WF:1:11 WF:1:12} -region {new new new new new new new new new new new new} -yview {real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y) real(y)} -xview {real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x) real(x)} -tracehi {2 2 2 2 2 2 2 2 2 2 2 2}
+# Signal0 Signal1 Signal2 Signal3 Signal4 Signal5 Signal6 Signal7 Signal8 Signal9 Signal10 Signal11
+Mdi:ArrangeIcons
+Mdi:Resize 727 646
+Mdi:Move 5 5
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:Resize 792 646
+Mdi:Move 5 5
+GrXY:NewGraph
+# Graph2
+Graph:Select Graph0
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons
+Mdi:ArrangeIcons

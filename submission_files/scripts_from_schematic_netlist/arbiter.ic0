@@ -1,0 +1,20 @@
+* "simulator" "HSPICE" 
+* "version" "E-2010.12-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "14:47:24 12/08/2020 "
+* "netlist" "arbiter.sp "
+* "runtitle" "** mux_slice.sp"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ net23 = 8.740e-01       
++ net24 = 8.740e-01       
++ q = 1.100e+00       
++ q_not = 1.100e+00       
++ r_in = 0.000e+00       
++ s_in = 0.000e+00       
++ vdd = 1.100e+00       
+***   END: Saved Operating Point ***                     

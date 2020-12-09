@@ -1,0 +1,19 @@
+;This is a comment
+radix 1111111111
+io iiiiiiiiii
+vname R S SEL0 SEL1 SEL2 SEL3 SEL4 SEL5 SEL6 SEL7
+tunit ps
+trise 30
+tfall 30
+period 100
+vih vdd_val
+vil 0
+
+;Input values
+0100000000
+1000000000
+
+
+
+
+

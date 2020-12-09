@@ -1,0 +1,30 @@
+* "simulator" "HSPICE" 
+* "version" "E-2010.12-SP2 32-BIT"
+* "format" "HSP"
+* "rundate" "13:39:27 12/08/2020 "
+* "netlist" "mux_slice.sp "
+* "runtitle" "** mux_slice.sp"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ net19 = 1.100e+00       
++ net22 = 1.357e-04       
++ net23 = 1.100e+00       
++ net24 = 1.100e+00       
++ net25 = 1.354e-04       
++ r_in = 0.000e+00       
++ r_out = 1.100e+00       
++ s_in = 1.100e+00       
++ s_out = 1.100e+00       
++ sel = 0.000e+00       
++ vdd = 1.100e+00       
++ xi5.net16 = 6.829e-05       
++ xi4.net16 = 8.740e-01       
++ xi3.net16 = 6.610e-02       
++ xi2.net16 = 3.007e-05       
++ xi1.net16 = 6.842e-05       
++ xi0.net16 = 6.610e-02       
+***   END: Saved Operating Point ***                     

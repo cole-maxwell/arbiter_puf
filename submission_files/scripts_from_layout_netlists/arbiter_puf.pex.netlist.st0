@@ -1,0 +1,57 @@
+***** HSPICE -- E-2010.12-SP2 32-BIT (May 23 2011) linux ******
+ Input File: arbiter_puf.pex.netlist.sp
+ lic: No 'setenv LM_LICENSE_FILE' in current environment'
+ lic:
+ lic: FLEXlm: v10.8
+ lic: USER:   chmaxwell            HOSTNAME: vlsicad2.ecs.umass.edu
+ lic: HOSTID: 782bcb03b893         PID:      20761
+ lic: Using FLEXlm license file:
+ lic: 27000@vlsicad2.ecs.umass.edu
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 09-sep-2021/2019.06
+ lic: 1(in_use)/50(total) FLOATING license(s) on SERVER vlsicad2.ecs.umass.edu
+ lic:
+ init: begin read circuit files,  cpu clock=  3.10E-01
+       option search   = /usr/synopsys/hspice/hspice/parts/ad
+       option search   = /usr/synopsys/hspice/hspice/parts/behave
+       option search   = /usr/synopsys/hspice/hspice/parts/bjt
+       option search   = /usr/synopsys/hspice/hspice/parts/burr_brn
+       option search   = /usr/synopsys/hspice/hspice/parts/comlinear
+       option search   = /usr/synopsys/hspice/hspice/parts/dio
+       option search   = /usr/synopsys/hspice/hspice/parts/fet
+       option search   = /usr/synopsys/hspice/hspice/parts/lin_tech
+       option search   = /usr/synopsys/hspice/hspice/parts/pci
+       option search   = /usr/synopsys/hspice/hspice/parts/signet
+       option search   = /usr/synopsys/hspice/hspice/parts/ti
+       option search   = /usr/synopsys/hspice/hspice/parts/tline
+       option search   = /usr/synopsys/hspice/hspice/parts/xilinx
+       option runlvl
+       option artist   =     2.00
+       option ingold   =     2.00
+       option parhie   = local
+       option psf      =     2.00
+       option post
+ init: end read circuit files,  cpu clock=  4.70E-01 memory=   3030 kb
+ init: begin check errors,  cpu clock=  4.70E-01
+ init: end check errors,  cpu clock=  6.00E-01 memory=   5606 kb
+ init: begin setup matrix, pivot=     0 cpu clock=  6.00E-01
+       establish matrix -- done,  cpu clock=  6.00E-01 memory=   5709 kb
+       re-order matrix -- done,  cpu clock=  9.90E-01 memory=   5709 kb
+ init: end setup matrix,  cpu clock=  9.90E-01 memory=   7295 kb
+ dcop: begin dcop,  cpu clock=  9.90E-01
+ dcop: end dcop,  cpu clock=  1.53E+00 memory=   7295 kb  tot_iter=     180
+ output: arbiter_puf.pex.netlist.tr0
+ sweep: tran tran0    begin, stop_t=  6.00E-10 #sweeps= 601 cpu clock=  1.54E+00
+ tran: time= 7.5440E-11 tot_iter=      10 conv_iter=       5 cpu clock= 1.55E+00
+ tran: time= 1.3000E-10 tot_iter=      14 conv_iter=       7 cpu clock= 1.56E+00
+ tran: time= 1.8203E-10 tot_iter=      43 conv_iter=      15 cpu clock= 1.63E+00
+ tran: time= 2.4817E-10 tot_iter=      76 conv_iter=      26 cpu clock= 1.71E+00
+ tran: time= 3.0384E-10 tot_iter=     107 conv_iter=      36 cpu clock= 1.79E+00
+ tran: time= 3.6405E-10 tot_iter=     142 conv_iter=      47 cpu clock= 1.88E+00
+ tran: time= 4.2151E-10 tot_iter=     175 conv_iter=      57 cpu clock= 1.96E+00
+ tran: time= 4.8396E-10 tot_iter=     203 conv_iter=      67 cpu clock= 2.03E+00
+ tran: time= 5.4168E-10 tot_iter=     209 conv_iter=      70 cpu clock= 2.04E+00
+ tran: time= 6.0000E-10 tot_iter=     213 conv_iter=      72 cpu clock= 2.05E+00
+ sweep: tran tran0    end,  cpu clock=  2.06E+00 memory=   7329 kb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

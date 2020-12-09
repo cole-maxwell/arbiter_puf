@@ -1,0 +1,21 @@
+;This is a comment
+radix 11
+io ii
+vname s_in r_in
+tunit ps
+trise 30
+tfall 30
+period 100
+vih vdd_val
+vil 0
+
+;Input values
+00
+10
+01
+11
+
+
+
+
+
